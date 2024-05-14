@@ -13,6 +13,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding-bottom: 10px;
+	padding-left: 10px;
 }
 .post-icons {
 	display: flex;
@@ -28,7 +29,6 @@ body {
 	background-color: white;
 	width: 500px;
 	margin: 0 auto;
-	padding: 5px;
 	border-radius: 10px;
 
 }
@@ -38,7 +38,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 10px;
+
 }
 .top-left {
 	display: flex;
