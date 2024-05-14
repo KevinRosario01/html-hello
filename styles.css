@@ -12,6 +12,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding-bottom: 10px;
 }
 .post-icons {
 	display: flex;
@@ -22,10 +23,22 @@ body {
 	padding-bottom: 20px;
 }
 .post {
+	display: flex;
+	flex-direction: column;
 	background-color: white;
 	width: 500px;
 	margin: 0 auto;
 	padding: 5px;
+	border-radius: 10px;
+
+}
+.post-img {
+	flex-basis: 400px;
+	background-image: url(/background.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
 }
 .top-left {
 	display: flex;
